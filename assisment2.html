@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <tittle>Assisment 2</tittle>
+    </head>
+    <style>
+        .conatiner{
+            width: 1250px;
+            height: 550px;
+            background-color: rgb(236, 134, 209);
+            display: grid;
+            grid-template-rows: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .grid-items{
+            background-color: white;
+            height: 400px;
+            width: 400px ;
+            margin: 6px;
+            border-radius: 20px;
+        }
+        #ele2{
+            /* width: 500px;
+            height: 500px; */
+            margin-left: 60px;
+            margin-top: 90px;
+            text-align: right;
+            
+        }
+        form{
+            margin-left: 30px;
+            /* margin-top: 180px; */
+        }
+        #ele1{
+            /* width: 500px;
+            height: 500px; */
+            margin-left: 200px;
+            margin-top: 90px;
+            background-image: url("https://i.pinimg.com/564x/c7/1c/70/c71c706bd6b1769b068c29fc2b03bd18.jpg");
+            background-size: cover;
+
+        }
+        fieldset{
+            width: 300px;
+        }
+        #logo{
+            height: 150px;
+            background-image: url("https://i.pinimg.com/564x/d7/b5/53/d7b5533edfdc234075f2552a01022e1a.jpg");
+            width: 150px ;
+            background-size: cover;
+            margin-left: 120px;
+            border-radius: 100px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+
+        }
+
+    </style>
+    <body>
+        <div class="conatiner">
+        <div class="grid-items" id="ele1"></div>
+        <div class="grid-items" id="ele2">
+            <div class="grid-items" id="logo"></div>
+            <form>
+                <fieldset>
+                    <legend> Login Here</legend>
+                    <table>
+                        <tr>
+                            <td><lable>USERNAME</lable></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><lable>PASSWORD</lable></td>
+                            <td><input type="password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <input type="submit">
+                                <input type="reset">
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>
